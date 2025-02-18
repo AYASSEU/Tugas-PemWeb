@@ -1,0 +1,137 @@
+<!--Nama : Laras Januapuspa
+NIM : 2303712
+Kelas : 4C-->
+
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <!-- Info dasar website -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Personal website Laras Januapuspa - Mahasiswa Desain dan Pecinta Buku">
+    <meta name="keywords" content="Laras Januapuspa, desain, mahasiswa, UPI">
+    <meta name="author" content="Laras Januapuspa">
+    <title>Laras Januapuspa | Personal Website</title>
+    <!-- Nambahin font Poppins biar keren -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+        }
+        h1, h2, h3 {
+            font-family: 'Poppins', sans-serif;
+            font-weight: 600;
+        }
+        .main-header {
+            text-align: center;
+        }
+        footer {
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <!-- Bagian atas - foto dan nama -->
+        <header class="main-header">
+            <img src="Gambar_Ayas.jpg" alt="Foto Laras Januapuspa" width="200" height="200">
+            <h1>Laras Januapuspa</h1>
+            <p><strong>Mahasiswa Desain | Pecinta Buku</strong></p>
+        </header>
+
+        <!-- Kata pembuka -->
+        <section>
+            <h2>Selamat Datang</h2>
+            <blockquote>
+                <p>Hai, saya Laras Januapuspa, seorang mahasiswa yang memiliki ketertarikan di bidang desain, seni, dan teknologi.</p>
+            </blockquote>
+        </section>
+
+        <!-- Data diri lengkap nih -->
+        <section>
+            <h2>Tentang Saya</h2>
+            <table cellspacing="10" cellpadding="5">
+                <tbody>
+                    <tr><th align="left">Nama</th>
+                        <td>: Laras Januapuspa</td></tr>
+                    <tr><th align="left">Tempat, Tanggal Lahir</th>
+                        <td>: Bandung, 15 Januari 2005</td></tr>
+                    <tr><th align="left">Alamat</th>
+                        <td>: Gurat, Kec. Cilaging, Jl. Lempeng</td></tr>
+                    <tr><th align="left">Nomor Telepon</th>
+                        <td>: 0853-2247-7153</td></tr>
+                    <tr><th align="left">Email</th>
+                        <td>: <a href="mailto:larasjanuapuspa@upi.edu">ayass15@upi.edu</a><br>
+                           : <a href="mailto:larasjanuapuspa@gmail.com">larasjanuapuspa@gmail.com</a></td></tr>
+                    <tr><th align="left">Jenis Kelamin</th>
+                        <td>: Perempuan</td></tr>
+                    <tr><th align="left">Agama</th>
+                        <td>: Islam</td></tr>
+                </tbody>
+            </table>
+        </section>
+
+        <!-- Riwayat sekolah -->
+        <section>
+            <h2>Pendidikan</h2>
+            <dl>
+                <dt><strong>Universitas Pendidikan Indonesia</strong></dt>
+                    <dd>2023 - Sekarang</dd>
+                <dt><strong>SMAN 16 Garut</strong></dt>
+                    <dd>2020 - 2023</dd>
+                <dt><strong>SMPN 1 Cikajang</strong></dt>
+                    <dd>2017 - 2020</dd>
+                <dt><strong>SDN 2 Cikajang</strong></dt>
+                    <dd>2011 - 2017</dd>
+            </dl>
+        </section>
+
+        <!-- Pengalaman organisasi -->
+        <section>
+            <h2>Pengalaman Organisasi</h2>
+            <article>
+                <header>
+                    <h3>Wakil Ketua Organisasi IT</h3>
+                </header>
+                <p><em>SMA</em> - Mengkoordinasi kegiatan IT dan membantu pengembangan teknologi sekolah</p>
+            </article>
+            <article>
+                <header>
+                    <h3>Staff Himpunan Mahasiswa</h3>
+                </header>
+                <p><em>Universitas</em> - Aktif dalam kegiatan kemahasiswaan dan pengembangan organisasi</p>
+            </article>
+        </section>
+
+        <!-- Yang suka dikerjain di waktu luang -->
+        <section>
+            <h2>Hobi</h2>
+            <dl>
+                <dt><strong>Membaca Buku</strong></dt>
+                    <dd>Mengeksplorasi berbagai genre literatur untuk pengembangan diri</dd>
+                <dt><strong>Melukis</strong></dt>
+                    <dd>Mengekspresikan kreativitas melalui seni visual</dd>
+                <dt><strong>Mendesain</strong></dt>
+                    <dd>Membuat karya desain digital dan grafis</dd>
+            </dl>
+        </section>
+
+        <!-- Pencapaian yang udah diraih -->
+        <section>
+            <h2>Prestasi</h2>
+            <article>
+                <header>
+                    <h3>Juara 2 Lomba Poster Tingkat Kabupaten</h3>
+                </header>
+                <p><time datetime="2022">2022</time> - Kompetisi Desain Poster Kreatif</p>
+            </article>
+        </section>
+    </main>
+
+    <!-- Bagian paling bawah -->
+    <footer>
+        <hr>
+        <p><small>© 2025 Laras Januapuspa. Tidak boleh dicontek.</small></p>
+    </footer>
+</body>
+</html>
