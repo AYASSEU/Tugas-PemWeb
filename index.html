@@ -68,7 +68,7 @@
                 <td>
                     <fieldset style="border-color: #2B2D42; border-radius: 10px; padding: 20px;">
                         <legend align="center"><h2 style="color: #2B2D42; font-family: 'Poppins', sans-serif; margin: 0;">Kirim Pesan</h2></legend>
-                        <form method="post" action="#">
+                        <form method="post" action="#" enctype="multipart/form-data">
                             <table width="100%" cellpadding="8">
                                 <tr>
                                     <td width="30%"><label for="nama">Nama</label></td>
@@ -79,6 +79,55 @@
                                     <td><label for="email">Email</label></td>
                                     <td>:</td>
                                     <td><input type="email" id="email" name="email" required size="40" placeholder="contoh@email.com" style="padding: 5px;"></td>
+                                </tr>
+                                <!-- Tambahan alamat menggunakan textarea -->
+                                <tr>
+                                    <td><label for="alamat">Alamat</label></td>
+                                    <td>:</td>
+                                    <td><textarea id="alamat" name="alamat" rows="3" cols="39" required placeholder="Masukkan alamat lengkap Anda" style="padding: 5px;"></textarea></td>
+                                </tr>
+                                <!-- Tambahan gender menggunakan checkbox -->
+                                <tr>
+                                    <td><label>Jenis Kelamin</label></td>
+                                    <td>:</td>
+                                    <td>
+                                        <input type="checkbox" id="laki" name="gender" value="laki">
+                                        <label for="laki">Laki-laki</label>
+                                        
+                                        <input type="checkbox" id="perempuan" name="gender" value="perempuan">
+                                        <label for="perempuan">Perempuan</label>
+                                    </td>
+                                </tr>
+                                <!-- Tambahan agama menggunakan dropdown -->
+                                <tr>
+                                    <td><label for="agama">Agama</label></td>
+                                    <td>:</td>
+                                    <td>
+                                        <select id="agama" name="agama" required style="width: 200px; padding: 5px;">
+                                            <option value="">-- Pilih Agama --</option>
+                                            <option value="islam">Islam</option>
+                                            <option value="kristen">Kristen</option>
+                                            <option value="katolik">Katolik</option>
+                                            <option value="hindu">Hindu</option>
+                                            <option value="buddha">Buddha</option>
+                                            <option value="konghucu">Konghucu</option>
+                                        </select>
+                                    </td>
+                                </tr>
+                                <!-- Tambahan upload foto (opsional) -->
+                                <tr>
+                                    <td><label for="foto">Foto Diri</label></td>
+                                    <td>:</td>
+                                    <td>
+                                        <input type="file" id="foto" name="foto" accept="image/*" style="padding: 5px;">
+                                        <small style="color: #666;">(Opsional)</small>
+                                    </td>
+                                </tr>
+                                <!-- Tambahan kalendar untuk appointment -->
+                                <tr>
+                                    <td><label for="appointment">Tanggal Appointment</label></td>
+                                    <td>:</td>
+                                    <td><input type="date" id="appointment" name="appointment" required style="padding: 5px; width: 200px;"></td>
                                 </tr>
                                 <tr>
                                     <td><label for="pesan">Pesan</label></td>
