@@ -484,4 +484,23 @@ table {
     }
   }
   
-  
+  /* Gender checkbox styling for side-by-side layout */
+  input[type="checkbox"] + label {
+    display: inline-block;
+    margin-right: 20px;
+    width: auto;
+  }
+
+  /* Container for gender checkboxes */
+  .gender-options {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+
+  .gender-options label {
+    display: inline-block;
+    margin-bottom: 0;
+    margin-right: 15px;
+    width: auto;
+  }
