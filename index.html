@@ -48,13 +48,13 @@
                             <tr><th align="left" width="200">Nama</th>
                                 <td>: Laras Januapuspa</td></tr>
                             <tr><th align="left">Tempat, Tanggal Lahir</th>
-                                <td>: Bandung, 10 Februari 2005</td></tr>
+                                <td>: Bandung, 15 Januari 2005</td></tr>
                             <tr><th align="left">Alamat</th>
-                                <td>: Cibiru Depan Ayam Geprek</td></tr>
+                                <td>: Garut, kec. Cikajang</td></tr>
                             <tr><th align="left">Nomor Telepon</th>
-                                <td>: 123-456-789</td></tr>
+                                <td>: 0853-2247-7153</td></tr>
                             <tr><th align="left">Email</th>
-                                <td>: <a href="mailto:larasjanuapuspa@upi.edu" style="color: #2B2D42;">ayassseuua@upi.edu</a></td></tr>
+                                <td>: <a href="mailto:larasjanuapuspa@upi.edu" style="color: #2B2D42;">larasjanuapuspa@upi.edu</a></td></tr>
                             <tr><th align="left">Jenis Kelamin</th>
                                 <td>: Perempuan</td></tr>
                             <tr><th align="left">Agama</th>
@@ -88,17 +88,20 @@
                                     <td><textarea id="alamat" name="alamat" rows="3" cols="39" required placeholder="Masukkan alamat lengkap Anda" style="padding: 5px;"></textarea></td>
                                 </tr>
                                 <!-- Tambahan gender menggunakan checkbox -->
-                                <tr>
-                                    <td><label>Jenis Kelamin</label></td>
-                                    <td>:</td>
-                                    <td>
-                                        <input type="checkbox" id="laki" name="gender" value="laki">
-                                        <label for="laki">Laki-laki</label>
-                                        
-                                        <input type="checkbox" id="perempuan" name="gender" value="perempuan">
-                                        <label for="perempuan">Perempuan</label>
-                                    </td>
-                                </tr>
+<tr>
+    <td><label>Jenis Kelamin</label></td>
+    <td>:</td>
+    <td>
+        <div class="gender-options">
+            <input type="checkbox" id="laki" name="gender" value="laki">
+            <label for="laki">Laki-laki</label>
+            
+            <input type="checkbox" id="perempuan" name="gender" value="perempuan">
+            <label for="perempuan">Perempuan</label>
+        </div>
+    </td>
+</tr>
+
                                 <!-- Tambahan agama menggunakan dropdown -->
                                 <tr>
                                     <td><label for="agama">Agama</label></td>
